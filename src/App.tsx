@@ -40,6 +40,7 @@ function App() {
   
   console.log(currentSubject);
   console.log(questions);
+  
   if (questionsLoading) {
     return (<div></div>)
   }
