@@ -30,7 +30,7 @@ function Quizer({ onGameWon, onGameLost }: QuizerProps): ReactElement {
             return;
         }
         onGameLost();
-    }, [questions, nextQuestion]);
+    }, [nextQuestion, onGameLost]);
 
     return (
         <div className='text-center'>
