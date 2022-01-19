@@ -1,0 +1,186 @@
+{
+    "subjects": [
+        {
+            "id": "ekonomie",
+            "name": "Ekonomie"
+        },
+        {
+            "id": "webove-technologie",
+            "name": "Webových technologií"
+        }
+    ],
+    "questions": {
+        "ekonomie": [
+            {
+                "text": "Výrobce na nedokonale konkurenčním trhu bude chtít snížit produkci, když MC",
+                "answers": [
+                    {
+                        "correct": false,
+                        "text": "Jsou nižší, než cena"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Jsou nižší než mezní příjem"
+                    },
+                    {
+                        "correct": true,
+                        "text": "Jsou vyšší než MR"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Žádná z odpovědí není správná"
+                    }
+                ]
+            },
+            {
+                "text": "V důsledku rozšíření plísně na bramborách se snížila úroda brambor. Sníží se i příjmy pěstitelů brambor?",
+                "answers": [
+                    {
+                        "correct": true,
+                        "text": "Ano, je li EDP > 1"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Ano, je li EDP < 1"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Ano, je li ESP < 1"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Ano, je li ESP > 1"
+                    }
+                ]
+            },
+            {
+                "text": "V případě, že AC jsou vyšší, než MC platí, že AC:",
+                "answers": [
+                    {
+                        "correct": true,
+                        "text": "Klesají"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Rostou"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Jsou minimální"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Jsou maximální"
+                    }
+                ]
+            },
+            {
+                "text": "Lafferova křivka popisuje vztah mezi:",
+                "answers": [
+                    {
+                        "correct": false,
+                        "text": "Mírou nezaměstnanosti a mírou inflace"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Mírou inflace a mírou růstu nominálních mezd"
+                    },
+                    {
+                        "correct": true,
+                        "text": "Výší sazby daně a daňovým výnosem"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Daňovým výnosem a politickým cyklem"
+                    }
+                ]
+            }
+        ],
+        "webove-technologie": [
+            {
+                "text": "Jaký HTML tag se používá pro vytvoření hypertextového odkazu",
+                "answers": [
+                    {
+                        "correct": true,
+                        "text": "a"
+                    },
+                    {
+                        "correct": false,
+                        "text": "link"
+                    },
+                    {
+                        "correct": false,
+                        "text": "path"
+                    },
+                    {
+                        "correct": false,
+                        "text": "hypertext"
+                    }
+                ]
+            },
+            {
+                "text": "Kdy byla ukončena podpora Flashe v prohlížečích",
+                "answers": [
+                    {
+                        "correct": false,
+                        "text": "31. 12. 2018"
+                    },
+                    {
+                        "correct": true,
+                        "text": "31. 12. 2020"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Flash je nesmrtelný!"
+                    },
+                    {
+                        "correct": false,
+                        "text": "31. 12. 2010"
+                    }
+                ]
+            },
+            {
+                "text": "Co je to SEO",
+                "answers": [
+                    {
+                        "correct": false,
+                        "text": "Ani jedna odpověď není správně"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Scrambled egg omelette"
+                    },
+                    {
+                        "correct": false,
+                        "text": "Zkratka pro \"See you later\""
+                    },
+                    {
+                        "correct": true,
+                        "text": "Optimalizace pro vyhledávače"
+                    }
+                ]
+            },
+            {
+                "text": "Jaký formát obrázků nemůžeme zobrazit na webových stránkách",
+                "answers": [
+                    {
+                        "correct": true,
+                        "text": "PSD"
+                    },
+                    {
+                        "correct": false,
+                        "text": "PNG"
+                    },
+                    {
+                        "correct": false,
+                        "text": "JPG"
+                    },
+                    {
+                        "correct": false,
+                        "text": "SVG"
+                    }
+                ]
+            }
+        ]
+    }
+}
