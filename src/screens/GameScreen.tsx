@@ -64,7 +64,8 @@ export default function GameScreen(): ReactElement {
     const mineSweeper = useMemo(() => new MineSweeper(fieldsCountY, fieldsCountX, realMode ? 0 : minesCount, onMinesWon, onMinesLost), [realMode, fieldsCountX, fieldsCountY, minesCount, onMinesWon, onMinesLost])
 
     // Timer
-    const [_, setTimer] = useRecoilState(timerState);
+    const [timer, setTimer] = useRecoilState(timerState);
+    console.log(timer);
     useEffect(() => {
         let interval: NodeJS.Timer | undefined = undefined;
         if (currentGameState === 'bombs' || currentGameState === 'quiz') {

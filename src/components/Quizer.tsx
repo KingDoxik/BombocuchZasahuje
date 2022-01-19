@@ -22,7 +22,7 @@ function Quizer({ onGameWon, onGameLost }: QuizerProps): ReactElement {
             return;
         }
         setCurrentQuestionIndex(currentQuestionIndex + 1);
-    }, [currentQuestionIndex, maxQuestions, setCurrentQuestionIndex])
+    }, [currentQuestionIndex, maxQuestions, setCurrentQuestionIndex, onGameWon])
 
     const onAnswer = useCallback((answer: Answer) => {
         if (answer.correct) {

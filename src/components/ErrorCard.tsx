@@ -1,11 +1,7 @@
-import React, { ReactElement } from 'react'
+import { ReactElement } from 'react'
 import Button from './Button'
 
-interface Props {
-
-}
-
-function ErrorCard({ }: Props): ReactElement {
+function ErrorCard(): ReactElement {
     return (
         <div>
             <h2>Nastala nečekaná chyba...</h2>

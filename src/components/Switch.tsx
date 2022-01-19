@@ -1,4 +1,4 @@
-import React, { ReactElement, ReactNode } from 'react'
+import React, { ReactElement } from 'react'
 import { Switch as HSwitch } from '@headlessui/react'
 
 interface Props {
